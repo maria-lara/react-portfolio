@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
+// eslint-disable-next-line 
 import { HashRouter, Router, Route, Switch } from "react-router-dom";
 import { render } from "@testing-library/react";
 

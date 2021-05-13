@@ -9,7 +9,7 @@ function Project(props) {
             <img class="project-image text-center" alt="" src={props.imgURL}></img> 
             <p className="text-center">{[props.projectDescription]}</p>
             <a target="_blank" rel="noreferrer" className="btn btn-primary m-1" href={props.deployedAppURL} >View Deployed Application</a>
-            <a target="_blank" rel="noreferrer" class="btn btn-secondary text-center m-1" href={props.githubURL}>View Github Repository</a>
+            <a target="_blank" rel="noreferrer" class="btn btn-secondary text-center m-1" href={props.githubURL}> | View Github Repository</a>
         </div>
     </div>
     )

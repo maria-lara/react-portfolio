@@ -1,4 +1,5 @@
 import React from 'react';
+//import Profile from '../assets/maria1.JPG'
 
 
 function AboutMe() {
@@ -7,7 +8,7 @@ function AboutMe() {
         
         <div class="card">
             <h3 className="font-weight-bold text-center m-3">About Me</h3>
-            <img class="card-img-top rounded mx-auto d-block profile-img m-3" src="https://github.com/maria-lara/react-portfolio/blob/main/src/assets/maria1.JPG" alt="Maria Lara profile shot"/>
+            <img class="card-img-top rounded mx-auto d-block profile-img m-3" src= "./assets/maria1.JPG" alt="Maria Lara profile shot"/>
             <p class="card-text text-center m-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim dolor sed eros egestas, sit amet vehicula mi tincidunt. Ut consectetur purus et magna aliquam varius. Curabitur rutrum est libero, a consectetur risus pretium nec. Aenean commodo fermentum tortor, in lacinia lorem malesuada et. Aenean ac vulputate lectus, ac mattis dolor. Nunc eget commodo orci. Sed venenatis sagittis neque, at facilisis diam sagittis nec. Aenean ante nibh, elementum et sem eu, pretium tincidunt nisi. Integer sit amet leo augue. Donec at dui volutpat, imperdiet elit quis, molestie sem. Nullam id quam vel lorem hendrerit efficitur et id ante. Sed nec volutpat urna.</p>
             <a href="/projects" class="btn btn-primary text-center m-5">View my work</a>
         </div>
